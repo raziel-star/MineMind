@@ -1,4 +1,4 @@
-# SentinelAI 1.6 – Smart Minecraft Bot with Natural Language Commands
+# SentinelAI 1.7 – Smart Minecraft Bot with Natural Language Commands
 
 **SentinelAI** is a smart AI bot for Minecraft that understands and responds to **natural language commands** in both **English and Hebrew**. It uses real machine learning (PyTorch), NLP, and connects with `mineflayer` to control your bot in real time.
 
@@ -6,7 +6,7 @@
 
 ## 📦 What's Inside
 
-- `SentinelAI_1_6.py` – Python AI code (NLP + ML).
+- `SentinelAI_1_7.py` – Python AI code (NLP + ML).
 - `bot.js` – Minecraft bot using Mineflayer.
 - `learned_ai.json` – Trained commands with examples.
 - `README.md` – This guide.
@@ -53,7 +53,7 @@ Before running SentinelAI, make sure you have the following:
 Open terminal and run:
 
 ```bash
-python SentinelAI_1_6.py
+python SentinelAI_1_7.py
 ```
 
 This will train/load the model, generate `bot.js`, and run the bot.
@@ -91,7 +91,7 @@ You can teach the bot new actions during gameplay:
 
 To share this project:
 
-- Zip the files (`SentinelAI_1_6.py`, `bot.js`, `learned_ai.json`, `README.md`)
+- Zip the files (`SentinelAI_1_7.py`, `bot.js`, `learned_ai.json`, `README.md`)
 - Upload to GitHub or share the ZIP file directly.
 
 ---
