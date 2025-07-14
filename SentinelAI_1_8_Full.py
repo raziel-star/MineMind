@@ -175,18 +175,17 @@ const readline = require('readline');
 const Vec3 = require('vec3');
 
 const bot = mineflayer.createBot({
-  username: 'SentinelAI-Pro',
+  username: 'Claude',
   version: '1.20.1',
-  host: 'IP',  // הכנס את ה-IP שלך כאן
+  host: 'cuberazi.aternos.me',  // הכנס את ה-IP שלך כאן
   port: 25565,            // הכנס את הפורט שלך כאן
 });
 
 bot.once('spawn', () => {
   console.log('[DEBUG] EVENT: spawn');
   console.log('[READY]');
-  bot.chat('🤖 SentinelAI מחובר ומוכן!');
+  bot.chat('🤖 Claude מחובר ומוכן! איך אני יכול לעזור לכם היום');
   startEnemyScan();
-  startIronMineScan();
   startPatrol();
 });
 
